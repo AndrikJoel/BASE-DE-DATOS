@@ -1,0 +1,42 @@
+[04-Dec-2023 14:18:01 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'bdumaee.productos' doesn't exist in C:\Apache24\htdocs\base de datos\datos.php:22
+Stack trace:
+#0 C:\Apache24\htdocs\base de datos\datos.php(22): mysqli_query(Object(mysqli), 'INSERT INTO pro...')
+#1 C:\Apache24\htdocs\base de datos\datos.php(11): insertar(Object(mysqli))
+#2 {main}
+  thrown in C:\Apache24\htdocs\base de datos\datos.php on line 22
+[04-Dec-2023 14:24:03 UTC] PHP Warning:  Undefined array key "codigo_producto" in C:\Apache24\htdocs\base de datos\datos.php on line 13
+[04-Dec-2023 14:24:03 UTC] PHP Warning:  Undefined array key "nombre_producto" in C:\Apache24\htdocs\base de datos\datos.php on line 14
+[04-Dec-2023 14:24:03 UTC] PHP Warning:  Undefined array key "unidad_media" in C:\Apache24\htdocs\base de datos\datos.php on line 15
+[04-Dec-2023 14:24:03 UTC] PHP Warning:  Undefined array key "marca_producto" in C:\Apache24\htdocs\base de datos\datos.php on line 16
+[04-Dec-2023 14:24:03 UTC] PHP Warning:  Undefined array key "precio_venta" in C:\Apache24\htdocs\base de datos\datos.php on line 17
+[04-Dec-2023 14:24:03 UTC] PHP Warning:  Undefined array key "costo_compra" in C:\Apache24\htdocs\base de datos\datos.php on line 18
+[04-Dec-2023 14:24:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'bdumaee.productos' doesn't exist in C:\Apache24\htdocs\base de datos\datos.php:22
+Stack trace:
+#0 C:\Apache24\htdocs\base de datos\datos.php(22): mysqli_query(Object(mysqli), 'INSERT INTO pro...')
+#1 C:\Apache24\htdocs\base de datos\datos.php(11): insertar(Object(mysqli))
+#2 {main}
+  thrown in C:\Apache24\htdocs\base de datos\datos.php on line 22
+[04-Dec-2023 14:24:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'bdumaee.productos' doesn't exist in C:\Apache24\htdocs\base de datos\datos.php:22
+Stack trace:
+#0 C:\Apache24\htdocs\base de datos\datos.php(22): mysqli_query(Object(mysqli), 'INSERT INTO pro...')
+#1 C:\Apache24\htdocs\base de datos\datos.php(11): insertar(Object(mysqli))
+#2 {main}
+  thrown in C:\Apache24\htdocs\base de datos\datos.php on line 22
+[04-Dec-2023 15:09:09 UTC] PHP Warning:  Undefined array key "codigo_producto" in C:\Apache24\htdocs\base de datos\datos.php on line 13
+[04-Dec-2023 15:09:09 UTC] PHP Warning:  Undefined array key "nombre_producto" in C:\Apache24\htdocs\base de datos\datos.php on line 14
+[04-Dec-2023 15:09:09 UTC] PHP Warning:  Undefined array key "unidad_media" in C:\Apache24\htdocs\base de datos\datos.php on line 15
+[04-Dec-2023 15:09:09 UTC] PHP Warning:  Undefined array key "marca_producto" in C:\Apache24\htdocs\base de datos\datos.php on line 16
+[04-Dec-2023 15:09:09 UTC] PHP Warning:  Undefined array key "precio_venta" in C:\Apache24\htdocs\base de datos\datos.php on line 17
+[04-Dec-2023 15:09:09 UTC] PHP Warning:  Undefined array key "costo_compra" in C:\Apache24\htdocs\base de datos\datos.php on line 18
+[04-Dec-2023 15:09:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'bdumaee.productos' doesn't exist in C:\Apache24\htdocs\base de datos\datos.php:22
+Stack trace:
+#0 C:\Apache24\htdocs\base de datos\datos.php(22): mysqli_query(Object(mysqli), 'INSERT INTO pro...')
+#1 C:\Apache24\htdocs\base de datos\datos.php(11): insertar(Object(mysqli))
+#2 {main}
+  thrown in C:\Apache24\htdocs\base de datos\datos.php on line 22
+[04-Dec-2023 15:23:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'umaee(codigo_producto, nombre_producto, unidad_media, marca_producto, precio_...' at line 1 in C:\Apache24\htdocs\base de datos\datos.php:22
+Stack trace:
+#0 C:\Apache24\htdocs\base de datos\datos.php(22): mysqli_query(Object(mysqli), 'INSERT INTO bd ...')
+#1 C:\Apache24\htdocs\base de datos\datos.php(11): insertar(Object(mysqli))
+#2 {main}
+  thrown in C:\Apache24\htdocs\base de datos\datos.php on line 22
